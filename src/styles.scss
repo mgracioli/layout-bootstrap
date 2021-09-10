@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*MODIFICAR SCSS PADRÃO DO BOOTSTRAP*/
+
+//olhar a lista de varaiveis padrao do bootstrap em:
+    //node_modules -> bootstrap -> scss -> _variables.scss
+
+//variáveis
+$primary: #e84058;
+$body-bg: #18bc98;
+$success: #fa8828;
+
+.jumbotron{
+    background-color: #735c8a!important;
+}
+
+@import '~bootstrap/scss/bootstrap';
